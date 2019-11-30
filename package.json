@@ -1,0 +1,27 @@
+{
+  "name": "nodewithmongo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AZIZUL-HOQ-MARUF/node-with-mongo.git"
+  },
+  "author": "azizul hoq",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AZIZUL-HOQ-MARUF/node-with-mongo/issues"
+  },
+  "homepage": "https://github.com/AZIZUL-HOQ-MARUF/node-with-mongo#readme",
+  "dependencies": {
+    "ejs": "^3.0.1",
+    "express": "^4.17.1",
+    "express-ejs-layouts": "^2.5.0",
+    "mongodb": "^3.3.5",
+    "mongoose": "^5.7.13"
+  }
+}
