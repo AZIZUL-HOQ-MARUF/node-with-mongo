@@ -11,7 +11,8 @@ module.exports = {
 
     },
     showSingle: (req, res) => {
-        const event = { name: 'Basketball', slug: 'basketball', description: 'Throwing into a basket.' }
+        let slug = req.params.slug
+        const event = { name: slug, slug: slug, description: 'playing '+slug }
         res.render('pages/single', { event: event })
     }
 
